@@ -1,2 +1,3 @@
-function imgchange1(){document.getElementByld('logo').src='./image/josaiirasuto.jpg';}
-function imgchange2(){document.getElementByld('logo').src='./image/josai.jpg';}
+function imgchange1(){document.getElementById('mark').src='./image/hana2.png';}
+function imgchange2(){document.getElementById('mark').src='./image/hana.png';}
+
