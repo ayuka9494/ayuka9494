@@ -18,6 +18,8 @@
  <script src="ex6-9.js"></script>
  <script src="ex6-10.js"></script> 
  <script src="ex6-11.js"></script>
+ <script src="ex6-12.js"></script>
+ <link rel="stylesheet" href="imagechange.css">
  
 </head>
  
@@ -116,11 +118,18 @@
  <img src='./image/hana.png' id="mark" alt="expressions">
  <input type="button" value="戻る" onclick="imgchange2();">
 
- <h1>練習問題6-11 CSSを使って画像の大きさを制御</h1>
- <link rel="stylesheet" href="imagechange.css">
-<input type="button" value="画像の変更" onclick="imagechange1();"> 
- <img src='./image/' id="mark" alt="expressions">
+<h1>練習問題6-11 CSSを使って画像の大きさを制御</h1>
+<input type="button" value="画像の変更" onclick="imagechange3();"> 
+<img src='./image/josailogo' id="logo" alt="Josai Logo" class="imagechange">
+<input type="button" value="元に戻す" onclick="imagechange4();">
 
+ <h1>練習問題6-12</h1>
+ <form name="timer">
+ <input type="button" value="スタート" onclick="staetfnc();"> 
+ <br>
+ <input type="text" name="maji" size="30" value"">
+ </form>
+  
 </body>
  
 </html>
