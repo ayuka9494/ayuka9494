@@ -1,2 +1,2 @@
-function imgchange5(){document.getElementById('mark').src='./image/hana2.png';}
-function mes2(){document.getElementById('mark').src='./image/hana.png';}
+function imgchange5(){document.getElementById('flower').src='./image/flower2.png';}
+function mes2(){document.getElementById('flower').src='./image/flower.png';}
